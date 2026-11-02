@@ -73,7 +73,7 @@ const PricingMediaCards = ({
 
             <div className="flex flex-col justify-center gap-2 w-full md:w-1/2">
               <div className="px-3 py-1 mb-1 w-fit text-sm card rounded">
-                <p>{plan.price}{plan.period}</p>
+                <p>{plan.price} {plan.period.trim()}</p>
               </div>
               <h3 className="text-4xl md:text-5xl font-semibold leading-[1.15] text-balance">{plan.tag}</h3>
 

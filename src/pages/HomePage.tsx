@@ -178,7 +178,7 @@ export default function HomePage() {
       plans={[
         {
           tag: "Essentials",
-          price: "$1,999",
+          price: "$1,250",
           period: "once",
           features: [
             "Landing Page",
@@ -193,7 +193,7 @@ export default function HomePage() {
         },
         {
           tag: "Professional",
-          price: "$4,999",
+          price: "$4,500",
           period: "once",
           features: [
             "5-Page Website",
@@ -208,7 +208,7 @@ export default function HomePage() {
         },
         {
           tag: "Growth",
-          price: "$8,999",
+          price: "$10,000",
           period: "once",
           features: [
             "E-commerce Ready",
