@@ -1,4 +1,5 @@
 import AboutFeaturesSplit from '@/components/sections/about/AboutFeaturesSplit';
+import OwnershipAndMaintenance from '@/components/sections/about/OwnershipAndMaintenance';
 import ContactCta from '@/components/sections/contact/ContactCta';
 import FaqSimple from '@/components/sections/faq/FaqSimple';
 import FeaturesRevealCards from '@/components/sections/features/FeaturesRevealCards';
@@ -49,6 +50,17 @@ export default function HomePage() {
       ]}
       textAnimation="fade-blur"
     />
+    </SectionErrorBoundary>
+  </div>
+
+  <div id="ownership" data-section="ownership">
+    <SectionErrorBoundary name="ownership">
+      <OwnershipAndMaintenance
+        tag="OWNERSHIP & CARE"
+        title="Built Guided by You. Handed Off Fully. Maintained When Needed."
+        description="We craft websites to the highest standard, shaped by your vision and handed off with complete ownership. Need hands-off peace of mind? We also offer monthly maintenance where we monitor your site, handle updates, and report on any issues."
+        textAnimation="slide-up"
+      />
     </SectionErrorBoundary>
   </div>
 
