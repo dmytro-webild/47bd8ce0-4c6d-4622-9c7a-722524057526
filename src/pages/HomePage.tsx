@@ -288,14 +288,7 @@ export default function HomePage() {
           <ContactCta
       tag="GET IN TOUCH"
       text="Ready to expand your business online? Let's talk."
-      primaryButton={{
-        text: "Schedule Consultation",
-        href: "#contact",
-      }}
-      secondaryButton={{
-        text: "Contact Support",
-        href: "#contact",
-      }}
+      contactInfoText="Schedule an appointment now! Email SitePlannerOfficial@hotmail.com"
       textAnimation="slide-up"
     />
     </SectionErrorBoundary>
