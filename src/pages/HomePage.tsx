@@ -211,9 +211,9 @@ export default function HomePage() {
           price: "$10,000",
           period: "once",
           features: [
-            "E-commerce Ready",
-            "Content Strategy",
-            "6 Months Support",
+            "E-commerce ready (product catalog, secure checkout)",
+            "Content Strategy/SEO Structuring",
+            "6 months of support",
           ],
           primaryButton: {
             text: "Select Plan",
