@@ -8,6 +8,10 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 export default function Layout() {
   const navItems = [
   {
+    "name": "Ownership",
+    "href": "#ownership"
+  },
+  {
     "name": "Features",
     "href": "#features"
   },
