@@ -225,7 +225,7 @@ export default function HomePage() {
         {
           name: "Sarah J.",
           role: "Owner, Boutique",
-          quote: "GrowthWeb transformed our local store into a thriving online brand.",
+          quote: "SitePlanner transformed our local store into a thriving online brand.",
           imageSrc: "http://img.b2bpic.net/free-photo/elderly-business-woman-office-isolated_1303-21403.jpg",
         },
         {

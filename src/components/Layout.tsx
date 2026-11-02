@@ -42,7 +42,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarFullscreenStatic
-      logo="GrowthWeb"
+      logo="SitePlanner"
       ctaButton={{
         text: "Get Started",
         href: "#contact",
@@ -54,7 +54,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterSimpleMedia
-      brand="GrowthWeb"
+      brand="SitePlanner"
       columns={[
         {
           title: "Company",
@@ -83,7 +83,7 @@ export default function Layout() {
           ],
         },
       ]}
-      copyright="© 2024 GrowthWeb. All rights reserved."
+      copyright="© 2024 SitePlanner. All rights reserved."
       links={[
         {
           label: "Privacy",
